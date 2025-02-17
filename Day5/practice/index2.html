@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .parent>:nth-child(1)+h1{
+            background-color: aqua;
+        }
+        .parent>p{
+            background-color: blue;
+        }
+        .parent>.child>p~h1{
+            background-color: blueviolet;
+        }
+        .parent>.child>:nth-child(1)+h1{
+            background-color: cadetblue;
+        }
+        .parent>.child>p{
+            background-color: chartreuse;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="parent">
+        <p>my name is iman</p>
+        <h1>iman kalyan bhunia</h1>
+        <p>sima chowdhury</p>
+
+        <div class="child">
+            <p>child 1</p>
+            <h1>sima chowdhury</h1>
+            <p>child 2</p>
+            <h1>svu</h1>
+            <p>child 3</p>
+        </div>
+    </div>
+</body>
+</html>

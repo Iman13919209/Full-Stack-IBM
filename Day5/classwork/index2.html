@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* adjacent selector */
+        #parent >:nth-child(1)+h2{ 
+            background-color: aqua;
+        }
+        /* general selector */
+        #parent >:nth-child(1)~p{
+            background-color: blueviolet;
+        }
+        #parent>div>p~h2{
+            background-color: aquamarine;
+        }
+    </style>
+</head>
+<body>
+    <div id="parent">
+        <p>iman</p>
+        <h2>heading</h2>
+        <p>sima</p>
+        <p>dipankar</p>
+        <div id="child-para">
+            <p>nested</p>
+            <h2>heading</h2>
+            <p>nested</p>
+            <h2>heading</h2>
+        </div>
+    </div>
+</body>
+</html>
