@@ -1,0 +1,12 @@
+.sticky{
+    position: sticky;
+    top: 5px;
+    background-color: aqua;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+::selection{
+    background-color: red;
+}
