@@ -1,0 +1,74 @@
+#main > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 65px;
+    border-radius: 12px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+    background: linear-gradient(145deg, #333, #444);
+    cursor: pointer;
+    transition: transform 0.2s ease, background 0.3s;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+
+}
+
+#main > div:hover {
+    background:#cc2955;
+    color: #000;
+    transform: scale(1.1);
+}
+
+#main .equal {
+    background: #ff3366;
+    color: white;
+    box-shadow: 4px 4px 10px rgba(255, 51, 102, 0.6);
+}
+
+#main #equal:hover {
+    background: #cc2955;
+}
+
+#main > div:active {
+    transform: scale(0.9);
+}
+#main>:nth-child(2){
+    color: orange;
+}
+#main>:nth-child(3){
+    color: orange;
+}
+#main>:nth-child(4){
+    color: orange;
+}
+#main>:nth-child(5){
+    color: orange;
+}
+#main>:nth-child(6){
+    color: orange;
+}
+#main>:nth-child(7){
+    color: orange;
+}
+#main>:nth-child(8){
+    color: orange;
+}
+#main>:nth-child(9){
+    color: orange;
+}
+#main>:nth-child(13){
+    color: orange;
+}
+#main>:nth-child(17){
+    color: orange;
+}
+#main>:nth-child(21){
+    color: orange;
+}
+#main>:nth-child(22){
+    color: orange;
+}
+#main>:nth-child(25){
+    color: orange;
+}
