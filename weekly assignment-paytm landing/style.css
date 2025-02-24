@@ -4,7 +4,6 @@
     box-sizing: border-box;
     font-family: sans-serif;
 }
-
 body{
     background-color: #f7f9fc;
     width: 100%;
@@ -12,11 +11,8 @@ body{
 }
 a{
     text-decoration: none;
-    /* font-weight: 600; */
     font-size: 14px;
-
     font-family: sans-serif;
-
 }
 h3{
     font-family: sans-serif;
@@ -24,27 +20,19 @@ h3{
 p{
     font-family: sans-serif;
 }
-
-.container{width: 1300px;
-margin: 0 auto;}
-
 .header{
     padding-block: 10px;
     height: 63px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-    
-    /* background-color: red; */
     position: sticky;
     z-index: 100;
     top: 0px;
     background-color: #fff;
     .containers{
         padding-left: 180px;
-        /* padding-top: 5px; */
         width: 100%;
         display: flex;
         justify-content: space-between;
-        /* gap: 100px; */
         align-items: center;
         a{
             text-decoration: none;
@@ -55,25 +43,16 @@ margin: 0 auto;}
         .img{
             display: flex;
             align-items: center;
-            
             .nav-bar{
                 padding-left: 18px;
                 padding-top: 3px;
-                
-                
-                
                 li{
                     display: inline-block;
                     margin-inline: 10px;
-                
-        
-                    
                     a{
                         padding: 0;
                         color: rgb(66, 50, 50);
-                        font-size: bold;
-
-                        
+                        font-size: bold;   
                     }
                     
                 }
@@ -84,13 +63,10 @@ margin: 0 auto;}
                 gap: 20px;
                 padding-left: 10px;
                 padding-top: 3px;
-    
-    
                 .primary-btn{
                     padding: 5px 15px;
                     display: flex;
                     align-items: center;
-                    /* justify-content: center; */
                     background-color: #002970;
                     border-radius: 50px;
                     color: #fff;
@@ -102,13 +78,10 @@ margin: 0 auto;}
                         height: 30px;
                         margin-right: 5px;
                         margin-left: -10px;
-                        /* padding-right: 2px; */
                     }
                     p{
                         font-size: 14px;
                     }
-                    
-                    
                 }
                 .secondary-btn{
                     display: flex;
@@ -122,19 +95,11 @@ margin: 0 auto;}
                         font-size: 14px;
                     }
                     
-                }
-    
-                
+                } 
             }
-        }
-        
+        }  
     }
-    
-    
-    
-}
-
-    
+}   
 .ticket-booking{
     font-family: Arial, Helvetica, sans-serif;
     display: flex;
@@ -165,7 +130,6 @@ margin: 0 auto;}
             font-size: 15px;
             color: #000000;
             }
-    
         }
         .flights{
             border-bottom: 2px solid #00aaff;
@@ -395,6 +359,8 @@ margin: 0 auto;}
             height: 125px;
             width: 376px;
             margin-top: 19px;
+            border-radius: 10px;
+            
         }
     }
     
