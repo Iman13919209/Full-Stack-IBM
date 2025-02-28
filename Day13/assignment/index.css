@@ -1,0 +1,72 @@
+body{
+    background-image: url(https://global.discourse-cdn.com/freecodecamp/optimized/3X/8/6/86e4076dab3fb78259a399129de78fead9485400_2_689x283.jpeg);
+    background-size: cover;
+}
+#navbar{
+    height: 60px;
+    background-color:burlywood;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin-bottom: 10px;
+    position: sticky;
+    top: 0;
+
+    nav{
+    
+        ul{
+            list-style: none;
+            display: flex;
+            justify-content: space-between;
+            gap: 10px;
+            cu
+            a{
+                color: black;
+            }
+            button{
+                background-color:cornflowerblue;
+                cursor: pointer;
+                height: 20px;
+                width: 100px;
+                color: #ffffff;
+                border: 2px solid black;
+                border-radius: 10px;
+                transition: background-color 0.3s;
+            }
+        }
+    }
+}
+#sorting{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+    
+}
+#products{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px;
+    .product-box{
+        border: 2px solid #ccc;
+        height: 500px;
+        width: 350px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: #ffffff;
+        margin-top: 10px;
+        img{
+            height: 200px;
+            width: 200px;
+        }
+        button{
+            background-color: aqua;
+            cursor: pointer;
+            height: 40px;
+            width: 100px;
+        }
+        
+    }
+}
+
