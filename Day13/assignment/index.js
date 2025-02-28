@@ -190,54 +190,14 @@ function showData(arr){
     
 }
 showData(data);
-let cart=[];
-function addtocart(el,index){
-    cart.push(el);
-    localStorage.setItem("cartData",JSON.stringify(cart));
-    alert("Item added to cart");
-    // console.log(cart);
-    // getData();
-
-}
-// function getData(){
-//     let parsedData=JSON.parse(localStorage.getItem("cartData"));
-
-//     console.log(parsedData);
-
-// }
-
-
-// cart data display
-// document.addEventListener("DOMContentLoaded", () => {
-//   const cartItems = JSON.parse(localStorage.getItem("parsedData")) || [];
-//   console.log(cartItems);
-//   const cartTable = document.getElementById("cart");
-
-//   cartItems.forEach((el,index) => {
-//   let productBox=document.createElement("div");
-//   productBox.className="product-box";
-//   let heading=document.createElement("h2");
-//   heading.innerText= el.category;
-//   let img=document.createElement("img");
-//   img.src= el.image ;
-//   let name=document.createElement("p");
-//   name.innerText= el.name ;
-//   let price=document.createElement("p");
-//   price.innerText= el.price ;
-//   let rating=document.createElement("p");
-//   rating.innerText= el.rating ;
-//   // let button=document.createElement("button");
-//   // button.innerText="Add to Cart";
-//   // button.addEventListener("click", () => {
-//   //     addtocart(el,index);
-//   // })
-
-
-//   productBox.append(heading,img,name,price,rating,button);
-//   cartTable.append(productBox);
-//   });
+function addtocart(el, index) {
+  let cart = JSON.parse(localStorage.getItem("cartData")) || []; // Get existing cart data
+  cart.push(el); // Add new item to cart
+  localStorage.setItem("cartData", JSON.stringify(cart)); // Update localStorage
+  alert("Item added to cart");
   
- 
-// });
+}
+
+
 
 
