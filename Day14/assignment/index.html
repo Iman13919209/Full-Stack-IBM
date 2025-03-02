@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=3, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+        <div id="nav">
+            <div id="logo">
+                <img src="https://dam.bigcommerce.com/m/179d5d0a14041025/original/BC_Wordmark_Black.svg" alt="">
+            </div>
+            <div id="items">
+                <ul>
+                    <li><a href="#" onclick="window.location.href='index.html'">Home</a></li>
+                    <li><a href="#">About us</a></li>
+                    <li><a href="#">Contact us</a></li>
+                    <LI><a href="#">Services</a></LI>
+                    <li><a href="#">Platform</a></li>
+                </ul>
+            </div>
+            <div id="cart">
+                <button onclick="window.location.href='cart.html'">Go to cart</button>
+                <button onclick="window.location.href='checkout.html'">Go to Checkout</button>
+                <button>Wishlist</button>
+            </div>
+        </div>
+
+        <div id="sorting">
+            <input type="text" placeholder="Search here">
+            <select name="" id="sort">
+                <option value="">Sort items</option>
+                <option value="low">Low to High</option>
+                <option value="high">High to Low</option>
+                <option value="Ratting">Ratting</option>
+            </select>
+                <select name="" id="price">
+                    <option value="">Filter by price</option>
+                    <option value="low">Below $50</option>
+                    <option value="mid">$50 - $100</option>
+                    <option value="high">Above $100</option>
+                </select>
+                <select name="" id="category">
+                    <option value="">Filter By category</option>
+                    <option value="all">All</option>
+                    <option value="Fashion" name="Fashion">Fashion</option>
+                    <option value="Wearable" name="Wearable">Wearable</option>
+                    <option value="Electronics" name="Electronics">Electronics</option>
+                    <option value="Accessories" name=" Accessories">Accessories</option>
+                    <option value="Home & Kitchen">Home & Kitchen</option>
+                    <option value="Fitness">Fitness</option>
+                </select>
+
+        </div>
+
+        <div id="products">
+
+        </div>
+        <footer>
+            <p>&copy; Iman Kalyan Bhunia - All rights reserved</p>
+        </footer>
+</body>
+</html>
+<script src="index.js"></script>

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Checkout</title>
+    <link rel="stylesheet" href="checkout.css">
+</head>
+<body>
+    <div id="nav">
+        <div id="logo">
+            <img src="https://dam.bigcommerce.com/m/179d5d0a14041025/original/BC_Wordmark_Black.svg" alt="">
+        </div>
+        <div id="items">
+            <ul>
+                <li><a href="#" onclick="window.location.href='index.html'">Home</a></li>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Contact us</a></li>
+                <LI><a href="#">Services</a></LI>
+                <li><a href="#">Platform</a></li>
+            </ul>
+        </div>
+        <div id="cart">
+            <button onclick="window.location.href='cart.html'">Back to cart</button>
+            <button>Wishlist</button>
+        </div>
+    </div>
+    <div id="form">
+        
+            <h1>Checkout</h1>
+        
+        
+            <form id="checkoutForm">
+                <input type="text" placeholder="Name" required>
+                <input type="email" placeholder="Email" required>
+                <input type="text" placeholder="Address" required>
+                <select required>
+                    <option value="cod">Cash on Delivery</option>
+                    <option value="upi">UPI Payment</option>
+                </select>
+                <button type="submit">Place Order</button>
+            </form>
+            <div id="orderSummary"></div>
+        
+    </div>
+    <footer>
+        <p>&copy; Iman Kalyan Bhunia - All rights reserved</p>
+    </footer>
+</body>
+</html>
+<script src="checkout.js"></script>
