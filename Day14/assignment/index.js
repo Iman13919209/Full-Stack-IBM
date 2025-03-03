@@ -191,7 +191,14 @@ function showData(arr){
 }
 showData(data);
 function addtocart(el, index) {
-  let cart = JSON.parse(localStorage.getItem("cartData")) || []; // Get existing cart data
+  let cart = JSON.parse(localStorage.getItem("cartData")) || [];
+  for(let i=0; i<cart.length; i++){
+    if(cart[i].id === el.id){
+      alert("Item already added to cart");
+      return;
+    }
+  }
+   // Get existing cart data
   cart.push(el); // Add new item to cart
   localStorage.setItem("cartData", JSON.stringify(cart)); // Update localStorage
   alert("Item added to cart");
