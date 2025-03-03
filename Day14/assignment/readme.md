@@ -6,7 +6,11 @@
 ![image](https://github.com/user-attachments/assets/b1e98093-c0dd-4cb3-ba6b-22663af43373)
 
 # cart.html
-![image](https://github.com/user-attachments/assets/dcae9df6-5cb6-4bcc-a1bf-699ed03d6680)
+![image](https://github.com/user-attachments/assets/0a43d744-5b62-476f-b866-eb4fc4e9d192)
+
 
 # checkout.html
 ![image](https://github.com/user-attachments/assets/8acdbcd8-a821-428d-9b73-1ff990c38357)
+// order summery
+![image](https://github.com/user-attachments/assets/7df3d10e-6b8c-45ba-b08d-da46f6ef0c5b)
+
