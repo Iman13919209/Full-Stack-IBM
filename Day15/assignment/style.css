@@ -1,0 +1,103 @@
+body{
+    background-color: #87CEFA;
+}
+#nav{
+    width: 100%;
+    height: 80px;
+    /* border: 2px solid black; */
+    background-color: #20B2AA;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+    #logo{
+        margin: 20px;
+        img{
+            height: 50px;
+            width: 180px;
+        }
+    }
+    #items{
+        ul{
+            list-style-type: none;
+            display: flex;
+            gap: 20px;
+            li{
+                a{
+                    text-decoration: none;
+                    color: black;
+                    font-size: 19px;
+                }
+            }
+        }
+    }
+    #cart{
+        margin: 20px;
+        display: flex;
+        gap: 20px;
+        button{
+            height: 35px;
+            width: 90px;
+            background-color: #FFB6C1;
+            border-radius: 10PX;
+            cursor: pointer;
+        }
+    }
+}
+#sorting{
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+    input{
+        height: 30px;
+        border-radius: 10px;
+    }
+    select{
+        border-radius: 10px;
+    }
+}
+
+#products{
+    display: grid;
+    grid-template-columns:  repeat(4,1fr);
+    gap: 10px;
+    margin-top: 5px;
+    .product-box{
+        height: 500px;
+        width: 350px;
+        border: 2px solid black;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: #ffffff;
+        border-radius: 10px;
+        img{
+            width: 300px;
+            height: 250px;
+        }
+        p{
+            font-size: 16px;
+            font-weight: 600;
+        }
+        button{
+            height: 20px;
+            width: 100px;
+            border-radius: 5px;
+            background-color: #FFB6C1;
+            cursor: pointer;
+        }
+    }
+}
+footer{
+     background-color: #20B2AA;
+     height: 40px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     margin-top: 10px;
+     
+     
+}
