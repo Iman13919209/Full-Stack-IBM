@@ -1,0 +1,44 @@
+.container{
+    /* background-color: black; */
+    height: 100vh;
+    nav{
+        height: 60px;
+        /* background-color: aqua; */
+        /* width: 100vw; */
+        border: 2px solid black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 300px;
+        .logo{
+            display: flex;
+            gap: 20px;
+            align-items: center;
+            img{
+                height: 25px;
+                width: 120px;
+            }
+        }
+        .input{
+            input{
+                width: 450px;
+                height: 40px;
+                border-radius: 30px;
+            }
+        }
+        .button{
+            display: flex;
+            gap: 20px;
+            .btn1{
+                width: 100px;
+                height: 35px;
+                border-radius: 30px;
+            }
+            .btn2,.btn3{
+                background-color: white;
+                border: none;
+                height: 40px;
+            }
+        }
+    }
+}

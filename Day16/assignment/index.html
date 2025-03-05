@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product-listing-page</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div id="container">
+        <nav>
+            <div id="logo">
+               <h1>E-Commerce</h1>
+            </div>
+            <div id="items">
+                <ul>
+                    <li><a href="#" onclick="window.location.href='index.html'"style="border-bottom: 2px solid white;">Home</a></li>
+                    <li><a href="#" onclick="window.location.href='user.html'">User</a></li>
+                    <li><a href="#" onclick="window.location.href='product.html'">Product Details</a></li>
+                </ul>
+            </div>
+            <div id="button">
+                <a href="#">Add to cart</a>
+            </div>
+        </nav>
+        <div id="sorting">
+            <input type="search" placeholder="Search here" id="search">
+            <select name="" id="sort">
+                <option value="">Sort items</option>
+                <option value="low">Low to High</option>
+                <option value="high">High to Low</option>
+                <option value="Ratting">Ratting</option>
+            </select>
+                <select name="" id="price">
+                    <option value="">Filter by price</option>
+                    <option value="low">Below $50</option>
+                    <option value="mid">$50 - $100</option>
+                    <option value="high">Above $100</option>
+                </select>
+                <select name="" id="category">
+                    <option value="">Filter By category</option>
+                    <option value="all">All</option>
+                    <option value="Fashion" name="Fashion">Fashion</option>
+                    <option value="Wearable" name="Wearable">Wearable</option>
+                    <option value="Electronics" name="Electronics">Electronics</option>
+                    <option value="Accessories" name=" Accessories">Accessories</option>
+                    <option value="Home & Kitchen">Home & Kitchen</option>
+                    <option value="Fitness">Fitness</option>
+                </select>
+
+        </div>
+        <div class="loader-container">
+            <div class="loader">
+                
+            </div>
+        </div>
+
+        <div id="products">
+
+        </div>
+        <footer>
+            <p>&copy; Iman Kalyan Bhunia - All rights reserved</p>
+        </footer>
+    </div>
+    
+    </div>
+    
+</body>
+</html>
+<script src="index.js"></script>
