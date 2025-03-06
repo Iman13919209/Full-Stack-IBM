@@ -51,25 +51,38 @@
         }
 
         .input {
+           width: 650px;
+           display: flex;
+           gap: 10px;
 
-            input {
-                width: 610px;
-                height: 42px;
-                border-radius: 50px;
-                background-color: black;
-                border: 1px solid #373636;
-                margin-right: 10px;
-                padding-left: 20px;
-                font-size: 16px;
-                background-image: url(https://img.icons8.com/ios11/512/FFFFFF/search.png);
-                background-size: cover;
-                color: #ffffff;
-
+            .search{
+                    display: grid;
+                    grid-template-columns: repeat(2,1fr);
+                input {
+                    width: 550px;
+                    height: 42px;
+                    border-radius: 50px 0px 0px 50px;
+                    background-color: black;
+                    border: 1px solid #373636;
+                    margin-right: 10px;
+                    padding-left: 20px;
+                    font-size: 16px;
+                    color: #ffffff;
+                    margin-right: 0px;
+    
+                }
+                button{
+                    height: 42px;
+                    width:70px ;
+                    border-radius: 0px 50px 50px 0px;
+                    background-color:#201f1f ;
+                    border: 1px solid #373636;
+                }
             }
 
             span {
                 background-color: #252525;
-                padding: 10px 14px;
+                padding: 10px 15px;
                 border-radius: 50%;
 
             }
@@ -187,7 +200,10 @@
         }
     }
 }
-
+button:hover{
+    cursor: pointer;
+    background-color: #686565;
+}
 .card1>div:hover {
     background-color: #373636;
 }
@@ -200,4 +216,5 @@
 .body>.card2>.head>button:hover {
     background-color: #464444;
 }
+
 
