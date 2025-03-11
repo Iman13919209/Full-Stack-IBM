@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+
+    margin: 0px;
+    font-family: "Roboto", sans-serif;
+}
+
+.container {
+    background-color: rgba(0, 0, 0, 0.945);
+    height: 450vh;
+
+    nav {
+        height: 60px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 210px;
+        position: sticky;
+        top: 0px;
+        background-color: rgb(14, 14, 14);
+
+        .logo {
+            display: flex;
+            gap: 20px;
+            align-items: center;
+
+            span {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                gap: 5px;
+
+                img {
+                    height: 35px;
+                    width: 35px;
+                }
+
+                p {
+                    color: white;
+                    font-size: 22px;
+                    font-weight: bolder;
+                    
+
+                    sup {
+                        font-size: 10px;
+                        color: slategray;
+                    }
+                }
+            }
+        }
+
+        .input {
+           width: 650px;
+           display: flex;
+           gap: 10px;
+
+            .search{
+                    display: grid;
+                    grid-template-columns: repeat(2,1fr);
+                input {
+                    width: 550px;
+                    height: 42px;
+                    border-radius: 50px 0px 0px 50px;
+                    background-color: black;
+                    border: 1px solid #373636;
+                    margin-right: 10px;
+                    padding-left: 20px;
+                    font-size: 16px;
+                    color: #ffffff;
+                    margin-right: 0px;
+    
+                }
+                button{
+                    height: 42px;
+                    width:70px ;
+                    border-radius: 0px 50px 50px 0px;
+                    background-color:#201f1f ;
+                    border: 1px solid #373636;
+                }
+            }
+
+            span {
+                background-color: #252525;
+                padding: 10px 15px;
+                border-radius: 50%;
+
+            }
+        }
+
+        .button {
+            display: flex;
+            gap: 20px;
+
+            .btn1 {
+                background-color: #252525;
+                width: 100px;
+                height: 38px;
+                border-radius: 30px;
+                color: white;
+                font-size: 13.8px;
+                border: 2px solid #373636;
+            }
+
+            .btn2,
+            .btn3 {
+                background-color: black;
+                border: none;
+                height: 40px;
+            }
+        }
+    }
+
+    .body {
+        display: flex;
+        justify-content: space-between;
+        gap: 50px;
+        height: 60vh;
+
+        .card1 {
+
+            height: 60vh;
+            width: 16vw;
+            display: flex;
+            flex-direction: column;
+            gap: 3px;
+            /* margin-left: 20px; */
+            margin-top: 12px;
+            /* overflow: scroll; */
+           
+            
+
+            div {
+                display: flex;
+                align-items: center;
+                gap: 30px;
+                height: 40px;
+                padding-left: 30px;
+                border-radius: 8px;
+                cursor: pointer;
+
+                h4 {
+                    color: #ffffff;
+                }
+            }
+            .hr{
+                padding-left: 5px;
+                cursor: none;
+            }
+
+            
+        }
+
+        .card2 {
+            height: 60vh;
+            width: 95vw;
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+
+            .head {
+                display: flex;
+                justify-content: space-between;
+                padding: 10px;
+                
+
+                button {
+                    background-color: #201f1f;
+                    color: white;
+                    font-size: 15px;
+                    font-weight: bold;
+                    height: 30px;
+                    width: auto;
+                    border-radius: 8px;
+                    border: none;
+                    
+                    
+
+                }
+            }
+
+            .videos {
+
+                display: grid;
+                grid-template-columns: repeat(3, 1fr);
+                gap: 5px;
+
+                div {
+                    margin-bottom: 20px;
+
+                    img {
+                        height: 230px;
+                        width: 400px;
+                        border-radius: 10px;
+                    }
+
+                    h5 {
+                        color: #ffffff;
+                        font-size: 17px;
+                    }
+                }
+            }
+        }
+    }
+}
+button:hover{
+    cursor: pointer;
+    background-color: #686565;
+}
+.card1>div:hover {
+    background-color: #373636;
+}
+.hr::after {
+    content: "";
+    
+    flex: 1 1;
+    border-bottom: 0.5px solid #686565;
+}
+.body>.card2>.head>button:hover {
+    background-color: #464444;
+}
+
+
